@@ -1,0 +1,26 @@
+.layanan {
+    background-color: #F8D348;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.layanan div {
+    background-color: #E53A40;
+    color:white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.layanan div:hover {
+    background-color: #209E44; 
+    color: white;
+}
+
+/*Pilihan warna: 
+Red: #E53A40
+Yellow: #F8D348
+Green: #209E44
+Blue: #0D62AB
+*/

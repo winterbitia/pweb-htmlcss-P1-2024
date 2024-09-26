@@ -55,6 +55,12 @@ nav {
     } 
 }
 
+@media screen and (max-width: 768px) {
+    .footer-button {
+        display: none;
+    }
+}
+
 footer {
     background-color: #209E44;
     color: white;

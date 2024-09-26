@@ -2,6 +2,9 @@ nav {
     background-color: #E53A40;
     color: white;
 
+    position: sticky;
+    top: 0%;
+
     display: flex;
     justify-content: left;
     align-items: center;
@@ -43,9 +46,19 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-   .navbar-title {
-        display: block;
-   } 
+    nav {
+        padding: 10px 100px 10px 100px;
+    }
+
+    .navbar-title {
+            display: block;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .footer-button {
+        display: none;
+    }
 }
 
 footer {

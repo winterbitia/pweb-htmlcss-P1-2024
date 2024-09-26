@@ -2,6 +2,9 @@ nav {
     background-color: #E53A40;
     color: white;
 
+    position: sticky;
+    top: 0%;
+
     display: flex;
     justify-content: left;
     align-items: center;

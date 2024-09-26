@@ -1,7 +1,7 @@
 .testimoni {
-    background-color: #E53A40; 
+    background-color: #E53A40;
+    color: white;
     padding: 20px;
-    border-radius: 10px;
 }
 
 .testimoni div {
@@ -10,7 +10,6 @@
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
-    color: rgb(0, 0, 0);
 }
 
 .testi2:hover {

@@ -6,7 +6,12 @@
     <link rel="stylesheet" href="style/style-main.css">
     <link rel="stylesheet" href="style/header-footer.css">
     <link rel="stylesheet" href="style/about-us.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="galeri.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Warmindo</title>
 </head>
 <body>
@@ -16,38 +21,79 @@
         <p class="navbar-title">Le Warmindo</p>
         <div class="navbar-side">
             <a href="index.html" class="navbar-button">Home</a>
-            <a href="about.html" class="navbar-button">About</a>
+            <a href="#about" class="navbar-button">About</a>
         </div>
     </nav>
 
     <!-- Hero -->
-    <section>
-        <h1>Le Warmindo</h1>
-        <h3>Warung Indomie Terbaik</p>
+    <section class="hero">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>WARMINDO<br>SHEESH</h1>
+                <div class="buletan">
+                    <a href="https://wa.me/qr/7QTFPD4HODDOH1" class="buy-button">BUY</a>
+                    <a href="#menu" class="buy-button">MENU</a>
+                </div>
+            </div>
+        </div>
     </section>
+     
 
     <!-- About (Short) -->
-    <section>
+    <section id="about">
         <h1>About</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </section>
 
     <!-- Menu -->
-    <section>
-        <h1>Menu</h1>
-        <div>
-            <img src="assets/example.jpg" alt="Mie Ayam" width="30%">
-            <img src="assets/example.jpg" alt="Mie Ayam" width="30%">
-            <img src="assets/example.jpg" alt="Mie Ayam" width="30%">
+    <section id="menu" class="menu-section">
+        <h1 class="menu-title">Menu</h1>
+        <div class="menu-grid-1">
+            <div class="menu-item">
+                <img src="assets/indomie goreng.jpg" alt="Indomie Goreng">
+                <p>Indomie Goreng</p>
+                <span>15k</span>
+            </div>
+            <div class="menu-item">
+                <img src="assets/indomie soto.jpg" alt="Indomie Soto">
+                <p>Indomie Soto</p>
+                <span>20k</span>
+            </div>
+            <div class="menu-item">
+                <img src="assets/indomie rendang.jpg" alt="Indomie Rendang">
+                <p>Indomie Rendang</p>
+                <span>30k</span>
+            </div>
+            <div class="menu-item">
+                <img src="assets/indomie kari.jpg" alt="Indomie Kari Ayam">
+                <p>Indomie Kari Ayam</p>
+                <span>25k</span>
+            </div>
+        </div>
+        <div class="menu-grid-1">
+            <div class="menu-item">
+                <img src="assets/indomie ayam bawang.jpg" alt="Indomie Ayam Bawang">
+                <p>Indomie Ayam Bawang</p>
+                <span>27k</span>
+            </div>
+            <div class="menu-item">
+                <img src="assets/indomie sambal matah.jpg" alt="Indomie Sambal Matah">
+                <p>Indomie Sambal Matah</p>
+                <span>25k</span>
+            </div>
+            <div class="menu-item">
+                <img src="assets/indomie ayam geprek.jpg" alt="Indomie Ayam Geprek">
+                <p>Indomie Ayam Geprek</p>
+                <span>28k</span>
+            </div>
+            <div class="menu-item">
+                <img src="assets/indomie seblak.jpg" alt="Seblak">
+                <p>Indomie Seblak</p>
+                <span>27k</span>
+            </div>
         </div>
     </section>
-
-    <!-- Call to Action -->
-    <section>
-        <h1>Call to Action</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a href="https://www.youtube.com/@Winterbitia">Contact Us</a>
-    </section>
+    
 
     <!-- Footer  -->
     <footer>

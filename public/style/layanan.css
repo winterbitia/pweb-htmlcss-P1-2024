@@ -1,25 +1,50 @@
 .layanan {
-    background-color: #F8D348;
-    padding: 20px;
-}
-
-.layanan div {
-    background-color: #E53A40;
-    color:white;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-}
-
-.layanan div:hover {
     background-color: #209E44; 
+    padding: 40px; 
     color: white;
 }
 
-/*Pilihan warna: 
+.layanan h1 {
+    text-align: center;
+    color:#0D62AB; 
+    ;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.layanan div {
+    background-color: #d99b3c; 
+    color: #0D62AB; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.layanan h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.layanan p {
+    font-size: 1rem;
+}
+
+.layanan div:hover {
+    background-color: #F8D348; 
+    color: white;
+}
+
+
+/*Pilihan warna terang: 
 Red: #E53A40
 Yellow: #F8D348
 Green: #209E44
 Blue: #0D62AB
 */
+
+/* WARNA GELAP
+YELLOW: #d99b3c
+GREEN: 209E44
+RED: E53A40
+ */

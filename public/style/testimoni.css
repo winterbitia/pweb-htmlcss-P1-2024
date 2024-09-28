@@ -21,7 +21,7 @@
     flex: none;
     
     width: 15vw;
-    height: 15vw;
+    height: 16vw;
     object-fit: cover;
 
     border-radius: 10px;
@@ -39,6 +39,7 @@
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+    font-family: 'Poppins';
 }
 
 .testimoni-h3 {

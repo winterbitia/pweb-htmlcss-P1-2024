@@ -44,7 +44,7 @@
     }
 
     .photo img {
-        width: 90%; 
+        width: 90vw; 
         margin: 15px auto;
     }
 }
@@ -60,7 +60,6 @@
     }
 
     .photo img {
-        width: 100%; 
         margin: 10px auto;
     }
 }

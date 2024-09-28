@@ -3,13 +3,14 @@ nav {
     color: white;
 
     position: sticky;
+    z-index: 10;
+    box-sizing: unset;
     top: 0%;
 
     display: flex;
     justify-content: left;
     align-items: center;
     
-    height: 2em;
     padding: 10px;
 
     border-bottom: 10px solid #F8D348;
@@ -38,11 +39,12 @@ nav {
     font-weight: 600;
 
     padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease;
 }
 
 .navbar-button:hover {
     background-color: #F8D348;
-    color: #E53A40;
 }
 
 @media screen and (min-width: 768px) {
@@ -68,6 +70,7 @@ footer {
     display: flex;
     justify-content: left;
     align-items: center;
+    box-sizing: unset;
     
     height: 1.5em;
     padding: 10px;

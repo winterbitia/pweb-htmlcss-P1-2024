@@ -1,53 +1,58 @@
-.about {
+.about, .about-next {
     background-color: #DFC6BC; 
     display: flex; 
     flex-direction: row; 
     align-items: center; 
     justify-content: center; 
     margin: 20px auto; 
-    background-image: url(assets/Group\ 8.png); 
     background-size: cover; 
-    background-position: center;
+    background-position: center; 
     background-repeat: no-repeat; 
     padding: 50px 20px; 
     flex-wrap: wrap; 
 }
 
-.about-text {
+.about-text, .about-next-text {
     max-width: 600px; 
-    margin-right: 50px; 
-    text-align: left; 
+    padding: 20px; 
     line-height: 1.5; 
 }
 
-.about h1 span {
+.about-next-text {
+    text-align: left;
+    max-width: 600px; 
+    padding: 20px;
+    line-height: 1.5; 
+}
+
+.about h1, .about-next h1 {
+    font-size: 36px; 
+    color: #D85C19; 
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    font-weight: bold; 
+    line-height: 1.2; 
+}
+
+.about h1 span, .about-next h1 span {
     font-size: 36px; 
     color: #413405; 
     margin-bottom: 10px; 
 }
 
-.about h1 {
-    font-size: 36px; 
-    color: #D85C19; 
-    margin-bottom: 20px; 
-    font-weight: bold;
-    line-height: 1.2; 
-}
-
-.about p {
+.about p, .about-next p {
     font-size: 16px; 
     font-weight: 500;
     margin-bottom: 30px; 
-    text-align: justify;
 }
 
 .about p em {
     color: #c5680b; 
     font-weight: bold; 
-    font-size: 16px; 
+    font-size: 16px;
 }
 
-.about a {
+.about a, .about-next a {
     text-decoration: none; 
     color: #413405;
     font-weight: bold; 
@@ -58,40 +63,47 @@
     display: inline-block; 
 }
 
-.about a:hover {
+.about a:hover, .about-next a:hover {
     background-color: #d47b14;
 }
 
-.about a:active {
+.about a:active, .about-next a:active {
     color: #e9f502; 
     background-color: #D85C19;
 }
 
-.about-image img {
+.about-image img, .about-next-image img {
     width: 300px; 
     height: auto;
     border-radius: 50px; 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
+.about p {
+    text-align: left; 
+}
+
+.about h1 {
+    text-align: left; 
+}
+
 @media screen and (max-width: 768px) {
-    .about {
+    .about, .about-next {
         flex-direction: column; 
         align-items: center; 
         padding: 30px 10px; 
     }
 
-    .about-text {
+    .about-text, .about-next-text {
         margin-right: 0; 
-        text-align: center; 
     }
 
-    .about-image img {
+    .about-image img, .about-next-image img {
         width: 100%; 
         max-width: 300px; 
     }
 
-    .about a {
+    .about a, .about-next a {
         padding: 12px 30px; 
     }
 }

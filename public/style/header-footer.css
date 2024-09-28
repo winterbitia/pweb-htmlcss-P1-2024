@@ -55,14 +55,21 @@ img {
 
 @media screen and (min-width: 768px) {
     .navbar-title {
-            display: block;
+        display: block;
     } 
+    
+    footer br {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
     footer {
-        display: block;
-        flex: none;
+        display: inline;
+    }
+
+    .footer-side {
+        margin-left: unset;
     }
 }
 
@@ -75,12 +82,13 @@ footer {
     align-items: center;
     box-sizing: unset;
     
-    height: 1.5em;
+    height: 3.5em;
     padding: 10px;
     margin: 0 0 0 0;
 
     border-top: 10px solid #F8D348;
 }
+
 
 .footer-button {
     text-decoration: none;
@@ -90,4 +98,8 @@ footer {
     font-weight: 600;
 
     padding: 5px;
+}
+
+.footer-side {
+    margin-left: auto;
 }

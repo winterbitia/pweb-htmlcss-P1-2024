@@ -57,7 +57,7 @@ img {
     .navbar-title {
         display: block;
     } 
-    
+
     footer br {
         display: none;
     }
@@ -70,6 +70,12 @@ img {
 
     .footer-side {
         margin-left: unset;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 10px;
     }
 }
 

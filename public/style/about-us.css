@@ -13,7 +13,7 @@
 
 .about-text, .about-next-text {
     max-width: 600px; 
-    padding: 20px; 
+    padding: 20px 100px; 
     line-height: 1.5; 
 }
 
